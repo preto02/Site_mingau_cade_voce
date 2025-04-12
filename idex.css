@@ -10,8 +10,11 @@ body{
 
 
     header{
-        padding: 20px;
+        padding: 10px;
         text-align: center;
+        background-color: #c0e6fc;
+        /* position: fixed; */
+        width: 100%;
     }
     footer{
         margin-top: 20px;
@@ -35,6 +38,7 @@ body{
         padding: 0;
         display: flex;
         justify-content:space-between ;
+      
     }
     nav ul li{
         display: inline;
@@ -45,6 +49,9 @@ body{
         text-decoration: none;
         color:black;
         font-weight: bold;
+    }
+    nav ul li a:hover{
+        color: forestgreen;
     }
     html,body{
         height: 100%;
@@ -57,6 +64,8 @@ main{
     display: block;
     width: 100%;
     /* padding: 20px; */
+    margin-top: 60px;
+
     section{
         margin: auto;
         width: 50%;
@@ -69,13 +78,31 @@ main{
             padding: 30px;
             border-radius: 50px;
         }
+    }   
+    .jogo{
+        margin-top: 20px;
+        iframe{
+            width: 50vw;
+            height: 50vh;
+        }
     }
+
+
+
+    /* #sobre{ */
+       /* margin-top: 190px; */
+    /* } */
+
+
+
     .fotos{
         background-color:rgb(215, 240, 238);
         padding: 10px;
         padding-left: 200px;
         padding-right: 200px;
         border-radius: 50px;
+        margin-top: 60px;
+        margin-bottom: 120px;
         .grid{
             display: grid;
             grid-template-columns: repeat(2, 50%);

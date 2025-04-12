@@ -1,0 +1,25 @@
+
+.espaçoheader{
+      margin-top: 10px;
+      width: fit-content;
+      margin:  auto;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .container{
+        margin: auto;
+        .formFeedBox{
+            background-color: beige;
+            width: fit-content;
+            padding: 20px;
+            display:flex ;
+            flex-direction: column;
+            border-radius: 15px;
+        }
+      }
+}
+
+
+
+

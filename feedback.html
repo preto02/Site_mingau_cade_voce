@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title> 
+    <link rel="stylesheet" href="idex.css">
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <header>
+        <h1>mingau Cadê você?</h1>
+        <nav>
+            <ul>
+                <li> <a href="jogo.html">jogo</a></li>
+                <li><a href="#">feedback</a></li>
+                <li><a href="index.html">home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="espaçoheader">
+            <div class="container">
+                <form id="formid" name="formFeedback" class="formFeedBox" method="post">
+                    <label for="nome" class="labelform">digite seu nome</label>
+                    <input type="text" name="nome" id="nome" class="textbox" placeholder="digite seu nome">
+                    <br>
+
+                    <label for="e-mail" class="labelform">e-mail</label>
+                    <input type="text" name="email" id="email" class="textbox" placeholder="digite seu email">
+                    <br>
+                    <label for="genêro" class="labelform">genêro</label>
+                        <select name="genero" id="genero" >
+                        <option value="">Selecione</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="nao-binario">Não Binário</option>
+                        <option value="outro">Outro</option>
+                        <option value="prefiro-nao-dizer">Prefiro não dizer</option>
+                        </select>
+                        <br>
+                        <button class="btn" id="button" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 - todos os direitos reservados</p>
+    </footer>
+    <script src="feedback.js"></script>
+</body>
+</html>
