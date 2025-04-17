@@ -18,15 +18,23 @@ body{
         border-radius: 20px;
     }
     footer{
+        display: flex;
         margin-top: 20px;
-        padding: 10px;
         color: rgb(255, 255, 255);
+        justify-content: center;
+        gap: 10px;
         p{
             justify-self: center;
             padding: 10px;
             border-radius: 15px;
             background-color: black;
-            width: fit-content;
+        }
+
+        .git{
+            margin-top: 15px;
+            width: 35px;
+            background-color: white;
+            border-radius: 100px;
         }
     }
 }
@@ -54,7 +62,7 @@ body{
     nav ul li a:hover{
         color: forestgreen;
     }
-    html,body{
+    body{
         height: 100%;
         margin: 0;
         display: flex;
@@ -154,5 +162,31 @@ body{
         margin: 0 auto;
         justify-content: center;
     }
-}
 
+    section h3 {
+        font-size: 15px;
+    }
+
+    .fotos {
+        justify-self: center;
+        margin: 0;
+        box-sizing: content-box;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }  
+    
+}
+/*    .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+    .col img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+
+*/
